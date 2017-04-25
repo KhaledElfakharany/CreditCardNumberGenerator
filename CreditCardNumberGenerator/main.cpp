@@ -1,5 +1,4 @@
 #include "iostream"
-#include "time.h"
 #include "string.h"
 #include <stdlib.h>
 #include <sstream>
@@ -52,7 +51,6 @@ long long int generateCardNumber(std::string cardName){
 }
 int checkValidity(long long int inputNumber)
 {
-    
     int array[16]= {0};
     int x=0;
     while (inputNumber>0) {
